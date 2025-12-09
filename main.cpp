@@ -18,7 +18,7 @@ void equip_test1(shared_ptr<Character> c1) {
         cout << "Invalid equip: " << e.what() << endl;
 
         auto logger = Logger::getInstance();
-        logger->log("[Fail to Equip]");
+        logger->log("[Fail to Equip] ");
     }
 }
 
@@ -34,7 +34,7 @@ void equip_test2(shared_ptr<Character> c1) {
         cout << "Invalid equip: " << e.what() <<endl;
 
         auto logger = Logger::getInstance();
-        logger->log("[Fail to Equip]");
+        logger->log("[Fail to Equip] ");
     }
 }
 
@@ -50,7 +50,7 @@ void equip_test3(shared_ptr<Character> c1) {
         cout << "Invalid equip: " << e.what() << endl;
         
         auto logger = Logger::getInstance();
-        logger->log("[Fail to Equip]");
+        logger->log("[Fail to Equip] ");
     }
 }
 
